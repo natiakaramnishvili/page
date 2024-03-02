@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(5, 253, 170);
+    margin: auto;
+    margin-top: 200px;
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: box ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+div{
+    color: rgb(32, 39, 43);
+}
+@keyframes box{
+    20%{
+        background-color: rgb(37, 122, 44);
+    }
+    40%{
+        background-color: rgb(173, 175, 68);
+    }
+    
+    60%{
+        background-color: rgb(119, 3, 3) ;     
+    }
+    80%{
+        background-color: rgb(124, 16, 92);    
+    }
+    100%{
+        background-color:rgb(5, 253, 170) ;  
+    }
+}
